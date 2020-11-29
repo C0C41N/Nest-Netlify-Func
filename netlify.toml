@@ -1,0 +1,7 @@
+[deploy]
+	dir = "public"
+	functions = "functions"
+
+[build]
+	command = "npm i && npm run build:lambda"
+	functions = "functions"
