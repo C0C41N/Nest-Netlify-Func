@@ -1,3 +1,17 @@
-# yarn build:lambda
+# NestJS + Netlify Lambda Functions
 
-# netlify deploy --dir "public" --prod
+## Locally Serve
+
+`yarn start:nest:dev`
+
+###### OR
+
+`yarn start:lambda`
+
+## Build
+
+`yarn build:lambda`
+
+## Deploy
+
+`netlify deploy --dir "public" --prod`
