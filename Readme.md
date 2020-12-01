@@ -14,4 +14,4 @@
 
 ## Deploy
 
-`netlify deploy --dir "public" --prod`
+`yarn deploy`
