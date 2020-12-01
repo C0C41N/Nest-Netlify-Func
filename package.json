@@ -7,7 +7,7 @@
   "scripts": {
     "start:lambda": "netlify-lambda serve src -c ./webpack.config.js",
     "build:lambda": "netlify-lambda build src -c ./webpack.config.js",
-		"build:nest": "rimraf dist && nest build",
+    "build:nest": "rimraf dist && nest build",
     "start:nest": "nest start",
     "start:nest:dev": "nest start --watch",
     "start:nest:debug": "nest start --debug --watch",
