@@ -7,12 +7,12 @@
   "scripts": {
     "start:lambda": "netlify-lambda serve src -c ./webpack.config.js",
     "build:lambda": "netlify-lambda build src -c ./webpack.config.js",
-    "prebuild": "rimraf dist",
-    "build:nest": "nest build",
+		"build:nest": "rimraf dist && nest build",
     "start:nest": "nest start",
     "start:nest:dev": "nest start --watch",
     "start:nest:debug": "nest start --debug --watch",
-    "start:nest:prod": "node dist/main"
+    "start:nest:prod": "node dist/main",
+		"deploy": "netlify deploy --dir \"public\" --prod"
   },
   "dependencies": {
     "@nestjs/common": "^7.5.1",
